@@ -5,7 +5,7 @@ import random
 app = Ursina()
 camera.orthographic = True
 
-camera.fov = 10
+camera.fov = 20
 
 car = Entity(model='quad', texture='assets\car', collider='box', scale=(2,1), rotation_z=-90, y = -3)
 
